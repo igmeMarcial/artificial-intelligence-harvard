@@ -1,0 +1,55 @@
+# Entorno virtual
+igme/
+env/
+ENV/
+.igme/
+.ENV/
+
+# Archivos de configuración
+*.env
+*.ini
+*.cfg
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Directorios creados por herramientas de desarrollo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de log
+*.log
+
+# Archivos generados por pytest
+htmlcov/
+.cache/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Archivos de base de datos
+*.sqlite3
+
+# Paquetes distribuidos
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Archivos de distribución de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de empaquetado
+*.wheel
+*.egg
+
+# Otros archivos y carpetas comunes a ignorar
+.DS_Store
+Thumbs.db
